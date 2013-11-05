@@ -13,10 +13,10 @@
  [declension declensionWithNumber:int
                        nominative:@"штука"
                  genitiveSingular:@"штуки"
-                   genetivePlural:@"штук"];*/
+                   genitivePlural:@"штук"];*/
 
 +(NSString *)declensionWithNumber:(int)number
                        nominative:(NSString *)nominative
                  genitiveSingular:(NSString *)genitiveSingular
-                   genetivePlural:(NSString *)genitivePlural;
+                   genitivePlural:(NSString *)genitivePlural;
 @end
