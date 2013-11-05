@@ -15,15 +15,16 @@ declension - russain numeral declension
 
 Например:
 ```
-for (int i = 100; i>=0; i--) {
-        NSLog(@"У вас %@ %i %@ жизни", [declension declensionWithNumber:i
-                                                             nominative:@"остался"
-                                                       genitiveSingular:@"осталось"
-                                                         genitivePlural:@"осталось"],
+    for (int i = 100; i>=0; i--) {
+        NSLog(@"У вас %@ %i %@ жизни",
+              [declension declensionWithNumber:i
+                                    nominative:@"остался"
+                              genitiveSingular:@"осталось"
+                                genitivePlural:@"осталось"],
               i,
               [declension declensionWithNumber:i
                                     nominative:@"процент"
                               genitiveSingular:@"процента"
                                 genitivePlural:@"процентов"]);
-}
+    }
 ```
