@@ -1,4 +1,4 @@
-declension
+declension - russain numeral declension
 ==========
 
 Класс для склонения числительных на objective-c.
