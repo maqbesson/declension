@@ -1,0 +1,4 @@
+declension
+==========
+
+Declension
