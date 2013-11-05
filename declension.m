@@ -12,7 +12,7 @@
 +(NSString *)declensionWithNumber:(int)number
                        nominative:(NSString *)nominative
                  genitiveSingular:(NSString *)genitiveSingular
-                   genetivePlural:(NSString *)genitivePlural
+                   genitivePlural:(NSString *)genitivePlural
 {
     number = abs(number) % 100;
     int number1 = number % 10;
